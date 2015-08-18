@@ -1,122 +1,193 @@
 {
-  "name": "armenia-sample",
-  "title": "Armenia BOOST Expenditures (2006-2014) [sample]",
-  "profiles": {
-    "openspending": "*",
-    "tabular": "*"
-  },
-  "homepage": "http://wbi.worldbank.org/boost/country/armenia",
+  "name": "boost-armenia",
+  "title": "",
+  "homepage": "",
   "version": "0.1.0",
   "license": "PDDL-1.0",
   "resources": [
     {
-      "path": "armenia_boost_v1.7_expenditures_2006-2014_en.csv",
+      "name": "armenia_boost_v1.7_expenditures_2006-2014_en-sample",
+      "path": "data/armenia_boost_v1.7_expenditures_2006-2014_en-sample.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "bytes": 74326,
       "schema": {
         "fields": [
           {
             "name": "year",
-            "type": "integer"
+            "type": "integer",
+            "description": ""
           },
           {
             "name": "admin",
-            "type": "string"
+            "type": "string",
+            "description": ""
           },
           {
             "name": "econ1",
-            "type": "string"
+            "type": "string",
+            "description": ""
           },
           {
             "name": "econ2",
-            "type": "string"
+            "type": "string",
+            "description": ""
           },
           {
             "name": "econ3",
-            "type": "string"
+            "type": "string",
+            "description": ""
           },
           {
             "name": "econ4",
-            "type": "string"
+            "type": "string",
+            "description": ""
           },
           {
             "name": "func1",
-            "type": "string"
+            "type": "string",
+            "description": ""
           },
           {
             "name": "func2",
-            "type": "string"
+            "type": "string",
+            "description": ""
           },
           {
             "name": "func3",
-            "type": "string"
+            "type": "string",
+            "description": ""
           },
-          {"name": "program",
-           "type": "string"
+          {
+            "name": "program",
+            "type": "number",
+            "description": ""
           },
           {
             "name": "exp_type",
-            "type": "string"
+            "type": "string",
+            "description": ""
           },
           {
             "name": "Econ/func",
-            "type": "string"
+            "type": "string",
+            "description": ""
           },
           {
             "name": "transfer",
-            "type": "string"
+            "type": "string",
+            "description": ""
           },
           {
             "name": "approved",
-            "type": "integer"
+            "type": "integer",
+            "description": ""
           },
           {
             "name": "adjusted",
-            "type": "integer"
+            "type": "number",
+            "description": ""
           },
-          {"name": "executed"
-           "type": "integer"
+          {
+            "name": "executed",
+            "type": "integer",
+            "description": ""
           }
         ]
-    }
-  ],
-  "location": "AM",
-  "description": "
-The Armenia BOOST government expenditure database is constructed with
-data publicly available (in Armenian) at the Armenian e-government
-website, managed by the Ministry of Finance. The data included in the
-database ranges from 2006 to 2013 and comprises expenditures carried
-out by the central government.
-
-The national budget classification contains one level of
-administrative classification, four levels of economic classification,
-three levels of functional classification, and one level of program
-classification. The database also classifies expenditures by
-expenditure type and identifies intra-budgetary transfers.
-
-Database users should be aware of the potential limitations of the
-datasets. We urge users to consult the users’ manuals to learn more
-about these limitations and take them into account when analyzing
-their countries’ budgets.",
-  "mapping": {
-    "measures": {
-      "approved": {
-        "source": "approved",
-        "currency": "AMD",
-        "factor": 1
-      },
-      "adjusted": {
-        "source": "adjusted",
-        "currency": "AMD",
-        "factor": 1
-      },
-      "executed": {
-        "source": "executed",
-        "currency": "AMD",
-        "factor": 1
+      }
+    },
+    {
+      "name": "armenia_boost_v1.7_expenditures_2006-2014_en",
+      "path": "data/armenia_boost_v1.7_expenditures_2006-2014_en.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "bytes": 26348166,
+      "schema": {
+        "fields": [
+          {
+            "name": "year",
+            "type": "integer",
+            "description": ""
+          },
+          {
+            "name": "admin",
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "econ1",
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "econ2",
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "econ3",
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "econ4",
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "func1",
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "func2",
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "func3",
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "program",
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "exp_type",
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "Econ/func",
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "transfer",
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "approved",
+            "type": "number",
+            "description": ""
+          },
+          {
+            "name": "adjusted",
+            "type": "number",
+            "description": ""
+          },
+          {
+            "name": "executed",
+            "type": "number",
+            "description": ""
+          }
+        ]
       }
     }
-    "dimension-1": ...
-      "dimension-2": ...
-      
-  }
-}
+  ],
+  "description": "",
+  "repository": "https://github.com/os-data/boost-armenia.git"
 }
