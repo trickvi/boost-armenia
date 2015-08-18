@@ -1,0 +1,122 @@
+{
+  "name": "armenia-sample",
+  "title": "Armenia BOOST Expenditures (2006-2014) [sample]",
+  "profiles": {
+    "openspending": "*",
+    "tabular": "*"
+  },
+  "homepage": "http://wbi.worldbank.org/boost/country/armenia",
+  "version": "0.1.0",
+  "license": "PDDL-1.0",
+  "resources": [
+    {
+      "path": "armenia_boost_v1.7_expenditures_2006-2014_en.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "year",
+            "type": "integer"
+          },
+          {
+            "name": "admin",
+            "type": "string"
+          },
+          {
+            "name": "econ1",
+            "type": "string"
+          },
+          {
+            "name": "econ2",
+            "type": "string"
+          },
+          {
+            "name": "econ3",
+            "type": "string"
+          },
+          {
+            "name": "econ4",
+            "type": "string"
+          },
+          {
+            "name": "func1",
+            "type": "string"
+          },
+          {
+            "name": "func2",
+            "type": "string"
+          },
+          {
+            "name": "func3",
+            "type": "string"
+          },
+          {"name": "program",
+           "type": "string"
+          },
+          {
+            "name": "exp_type",
+            "type": "string"
+          },
+          {
+            "name": "Econ/func",
+            "type": "string"
+          },
+          {
+            "name": "transfer",
+            "type": "string"
+          },
+          {
+            "name": "approved",
+            "type": "integer"
+          },
+          {
+            "name": "adjusted",
+            "type": "integer"
+          },
+          {"name": "executed"
+           "type": "integer"
+          }
+        ]
+    }
+  ],
+  "location": "AM",
+  "description": "
+The Armenia BOOST government expenditure database is constructed with
+data publicly available (in Armenian) at the Armenian e-government
+website, managed by the Ministry of Finance. The data included in the
+database ranges from 2006 to 2013 and comprises expenditures carried
+out by the central government.
+
+The national budget classification contains one level of
+administrative classification, four levels of economic classification,
+three levels of functional classification, and one level of program
+classification. The database also classifies expenditures by
+expenditure type and identifies intra-budgetary transfers.
+
+Database users should be aware of the potential limitations of the
+datasets. We urge users to consult the users’ manuals to learn more
+about these limitations and take them into account when analyzing
+their countries’ budgets.",
+  "mapping": {
+    "measures": {
+      "approved": {
+        "source": "approved",
+        "currency": "AMD",
+        "factor": 1
+      },
+      "adjusted": {
+        "source": "adjusted",
+        "currency": "AMD",
+        "factor": 1
+      },
+      "executed": {
+        "source": "executed",
+        "currency": "AMD",
+        "factor": 1
+      }
+    }
+    "dimension-1": ...
+      "dimension-2": ...
+      
+  }
+}
+}
