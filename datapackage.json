@@ -69,7 +69,7 @@
             "description": "Expenditure Type Indicator"
           },
           {
-            "name": "Econ/func",
+            "name": "Econ-func",
             "type": "string",
             "description": "Filter to account for subnational disaggregation"
           },
