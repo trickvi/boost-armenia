@@ -1,0 +1,63 @@
+func2,label
+0101,"Legislative and executive bodies, public administration, financial and fiscal relations, foreign affairs"
+0103,General services
+0104,General research services
+0105,Research and development in the line of general public services
+0106,General public services (not belonging to other classes)
+0107,Operations in the line of public debt
+0108,Transfers of different nature executed between different level of the governance
+0201,Military defense
+0203,External military assistance
+0204,Research and development in defense sphere
+0205,Defense (not belonging to other classes)
+0301,Public order and security
+0302,Rescue service
+0303,Judicial work and legal protection
+0304,Prosecutor's office
+0305,Places of detention
+0307,Public order and security (not belonging to other classes)
+0401,"General economic, trade and labor relations"
+0402,"Agriculture, forestry, fishery and hunting"
+0403,Fuel and energy
+0404,"Mineral resources, industry and construction"
+0405,Transport
+0406,Communication
+0407,Other spheres
+0408,Research and development in the line of economic relations
+0409,Economic relations (not belonging to other classes)
+0501,Waste removal
+0503,Environmental pollution control
+0504,Biodiversity and nature protection
+0505,Research and development in the line of environmental protection
+0506,Environmental protection (not belonging to other classes)
+0601,House-building
+0603,Water-supply
+0604,Street lighting
+0606,House-building and utilities (not belonging to other classes)
+0701,"Medical goods, devices and equipment"
+0702,Outpatient services
+0703,Hospital services
+0704,Public healthcare services
+0706,Healthcare (not belonging to other classes)
+0801,Recreation and sport services
+0802,Cultural services
+0803,Radio and TV programs broadcasting and publishing services
+0804,Religious and other public services
+0806,"Recreation, culture and religion (not belonging to other classes)"
+0901,Pre-school and general elementary education
+0902,General secondary education
+0903,Primary vocational and secondary vocational education
+0904,Higher education
+0905,Education not classified by levels
+0906,Auxiliary services provided to education
+0908,Education (not belonging to other classes)
+1001,Ill health and disability
+1002,Old age
+1003,Persons who lost relatives
+1004,Family members and children
+1005,Unemployment
+1006,Habitation securing
+1007,Special social privileges (not belonging to other classes)
+1009,Social security (not belonging to other classes)
+1101,Reserve fund of the Government and communities of RA
+9999,Total subnational government spending

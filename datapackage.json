@@ -99,6 +99,269 @@
             "description": "Executed Budget (AMD)"
           }
         ]
+      },
+      "foreignKeys": [
+        {
+          "fields": "admin2",
+          "reference": {
+            "datapackage": "boost-armenia",
+            "resource": "admin2",
+            "fields": "admin2"
+          }
+        },
+        {
+          "fields": "econ1",
+          "reference": {
+            "datapackage": "boost-armenia",
+            "resource": "econ1",
+            "fields": "econ1"
+          }
+        },
+        {
+          "fields": "econ2",
+          "reference": {
+            "datapackage": "boost-armenia",
+            "resource": "econ2",
+            "fields": "econ2"
+          }
+        },
+        {
+          "fields": "econ3",
+          "reference": {
+            "datapackage": "boost-armenia",
+            "resource": "econ3",
+            "fields": "econ3"
+          }
+        },
+        {
+          "fields": "econ4",
+          "reference": {
+            "datapackage": "boost-armenia",
+            "resource": "econ4",
+            "fields": "econ4"
+          }
+        },
+        {
+          "fields": "func1",
+          "reference": {
+            "datapackage": "boost-armenia",
+            "resource": "func1",
+            "fields": "func1"
+          }
+        },
+        {
+          "fields": "func2",
+          "reference": {
+            "datapackage": "boost-armenia",
+            "resource": "func2",
+            "fields": "func2"
+          }
+        },
+        {
+          "fields": "func3",
+          "reference": {
+            "datapackage": "boost-armenia",
+            "resource": "func3",
+            "fields": "func3"
+          }
+        },
+        {
+          "fields": "exp_type",
+          "reference": {
+            "datapackage": "boost-armenia",
+            "resource": "exp_type",
+            "fields": "exp_type"
+          }
+        }
+      ]
+    },
+        {
+      "name": "admin2",
+      "path": "data/admin2.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "bytes": 3115,
+      "schema": {
+        "fields": [
+          {
+            "name": "admin2",
+            "type": "integer",
+            "description": ""
+          },
+          {
+            "name": "label",
+            "type": "string",
+            "description": ""
+          }
+        ]
+      }
+    },
+    {
+      "name": "econ1",
+      "path": "data/econ1.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "bytes": 178,
+      "schema": {
+        "fields": [
+          {
+            "name": "econ1",
+            "type": "integer",
+            "description": ""
+          },
+          {
+            "name": "label",
+            "type": "string",
+            "description": ""
+          }
+        ]
+      }
+    },
+    {
+      "name": "econ2",
+      "path": "data/econ2.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "bytes": 512,
+      "schema": {
+        "fields": [
+          {
+            "name": "econ2",
+            "type": "integer",
+            "description": ""
+          },
+          {
+            "name": "label",
+            "type": "string",
+            "description": ""
+          }
+        ]
+      }
+    },
+    {
+      "name": "econ3",
+      "path": "data/econ3.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "bytes": 2226,
+      "schema": {
+        "fields": [
+          {
+            "name": "econ3",
+            "type": "integer",
+            "description": ""
+          },
+          {
+            "name": "label",
+            "type": "string",
+            "description": ""
+          }
+        ]
+      }
+    },
+    {
+      "name": "econ4",
+      "path": "data/econ4.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "bytes": 5696,
+      "schema": {
+        "fields": [
+          {
+            "name": "econ4",
+            "type": "integer",
+            "description": ""
+          },
+          {
+            "name": "label",
+            "type": "string",
+            "description": ""
+          }
+        ]
+      }
+    },
+    {
+      "name": "exp_type",
+      "path": "data/exp_type.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "bytes": 71,
+      "schema": {
+        "fields": [
+          {
+            "name": "exp_type",
+            "type": "integer",
+            "description": ""
+          },
+          {
+            "name": "label",
+            "type": "string",
+            "description": ""
+          }
+        ]
+      }
+    },
+    {
+      "name": "func1",
+      "path": "data/func1.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "bytes": 357,
+      "schema": {
+        "fields": [
+          {
+            "name": "func1",
+            "type": "integer",
+            "description": ""
+          },
+          {
+            "name": "label",
+            "type": "string",
+            "description": ""
+          }
+        ]
+      }
+    },
+    {
+      "name": "func2",
+      "path": "data/func2.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "bytes": 2572,
+      "schema": {
+        "fields": [
+          {
+            "name": "func2",
+            "type": "integer",
+            "description": ""
+          },
+          {
+            "name": "label",
+            "type": "string",
+            "description": ""
+          }
+        ]
+      }
+    },
+    {
+      "name": "func3",
+      "path": "data/func3.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "bytes": 3880,
+      "schema": {
+        "fields": [
+          {
+            "name": "func3",
+            "type": "integer",
+            "description": ""
+          },
+          {
+            "name": "label",
+            "type": "string",
+            "description": ""
+          }
+        ]
       }
     }
   ],

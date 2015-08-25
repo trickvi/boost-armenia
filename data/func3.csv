@@ -1,0 +1,103 @@
+func3,label
+010101,"Legislative and executive bodies, public administration"
+010102,Financial and fiscal relations
+010103,Foreign affairs
+010301,General services in the line of staff /personnel/
+010302,General programming and statistical services
+010303,Other general services
+010401,General research work
+010501,Research and development in the line of general public services
+010601,General public services (not belonging to other classes)
+010701,Operation in the line of public debt
+010801,General transfers executed between different levels of government
+020101,Military defense
+020301,External military assistance
+020401,Research and development in defense
+020501,Defense (not belonging to other classes)
+030101,Police
+030102,National Security
+030201,Rescue service
+030301,Courts
+030302,Legal protection
+030401,Prosecutor's office
+030501,Places of detention
+030701,Public order and security (not belonging to other classes)
+040101,General economic and trade relations
+040201,Agriculture
+040202,Forestry
+040204,Irrigation
+040302,Mineral oils and natural gas
+040303,Nuclear fuel
+040304,Other fuel types
+040305,Electricity
+040306,Non-electric energy
+040401,"Export of mineral resources, except natural fuel"
+040403,Construction
+040501,Road transport
+040503,Railway
+040504,Air transport
+040505,Pipelines and other transport
+040601,Communication
+040703,Tourism
+040704,Multi-purpose development programs
+040801,"Research and development in the line of general economic, trade and labor issues"
+040804,"Research and development in the line of metal mining industry, industry and construction"
+040901,Economic relations (not belonging to other classes)
+050101,Waste removal
+050301,Air pollution control
+050401,Biodiversity and nature protection
+050501,Research and development in the line of environmental protection
+050601,Environmental protection (not belonging to other classes)
+060101,House-building
+060301,Water-supply
+060401,Street lighting
+060601,House-building and public utilities (not belonging to other classes)
+070101,Pharmaceutical goods
+070201,General medical services
+070202,Specialized medical services
+070203,Dental services
+070204,Paramedical services
+070301,General hospital services
+070302,Specialized hospital services
+070303,"Medical, mother and child centers' services"
+070401,Public healthcare services
+070601,Adjacent healthcare services and programs
+070602,Healthcare (not belonging to other classes)
+080101,Recreation and sport services
+080201,Libraries
+080202,Museums and galleries
+080203,"Culture houses, clubs, centers"
+080204,Other cultural organizations
+080205,Art
+080206,Cinematography
+080207,Monuments and cultural values restoration and preservation
+080301,TV and radio programs
+080302,"Publishing houses, editorial offices"
+080303,Information obtaining
+080401,Youth programs
+080402,"Political parties, non-governmental organizations, trade unions"
+080601,"Recreation, culture and religion (not belonging to other classes)"
+090101,Pre-school education
+090102,General elementary education
+090201,General primary education
+090202,General secondary (complete) education
+090301,Elementary vocational education
+090302,Secondary vocational education
+090401,Higher vocational education
+090402,Post-university vocational education
+090501,Extracurricular education
+090502,Additional education
+090601,Auxiliary services provided to education
+090801,Education (not belonging to other classes)
+100101,Ill health
+100102,Disability
+100201,Old age
+100301,Persons who lost relatives
+100401,Family members and children
+100501,Unemployment
+100601,Habitation securing
+100701,Special social privileges (not belonging to other classes)
+100901,Social security (not belonging to other classes)
+100902,Auxiliary services provided to social protection (not belonging to other classes)
+110101,Reserve fund of the Government of RA
+999999,Total subnational government spending
