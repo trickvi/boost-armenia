@@ -1,0 +1,17 @@
+[
+  {
+    "sql": "SELECT admin, SUM(executed) as amount FROM ':memory:' WHERE transfer = 'Excluding transfers' AND year = 2006 GROUP BY admin",
+    "file": "by-admin-2006",
+    "format": "csv"
+  },
+  {
+    "sql": "SELECT admin, econ1, SUM(executed) as amount FROM ':memory:' WHERE transfer = 'Excluding transfers' AND year = 2006 GROUP BY admin, econ1",
+    "file": "by-admin-then-econ1-2006",
+    "format": "csv"
+  },
+  {
+    "sql": "SELECT admin, econ1, econ2, SUM(executed) as amount FROM ':memory:' WHERE transfer = 'Excluding transfers' AND year = 2006 GROUP BY admin, econ1, econ2",
+    "file": "by-admin-then-econ1-then-econ2-2006",
+    "format": "csv"
+  }
+]
