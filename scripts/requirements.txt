@@ -1,0 +1,2 @@
+jtssql>=0.1
+datapackage>=0.5.3
