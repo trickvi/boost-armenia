@@ -85,17 +85,17 @@
           },
           {
             "name": "approved",
-            "type": "number",
+            "type": "integer",
             "description": "Approved Budget (AMD)"
           },
           {
             "name": "adjusted",
-            "type": "number",
+            "type": "integer",
             "description": "Adjusted Budget (AMD)"
           },
           {
             "name": "executed",
-            "type": "number",
+            "type": "integer",
             "description": "Executed Budget (AMD)"
           }
         ]
