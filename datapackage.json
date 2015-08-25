@@ -4,6 +4,9 @@
   "homepage": "http://wbi.worldbank.org/boost/country/armenia",
   "version": "0.1.0",
   "license": "PDDL-1.0",
+  "direction": "expenditure",
+  "status": "executed",
+  "location": "AM",
   "resources": [
     {
       "name": "boost-armenia",
@@ -99,81 +102,7 @@
             "description": "Executed Budget (AMD)"
           }
         ]
-      },
-      "foreignKeys": [
-        {
-          "fields": "admin2",
-          "reference": {
-            "datapackage": "boost-armenia",
-            "resource": "admin2",
-            "fields": "admin2"
-          }
-        },
-        {
-          "fields": "econ1",
-          "reference": {
-            "datapackage": "boost-armenia",
-            "resource": "econ1",
-            "fields": "econ1"
-          }
-        },
-        {
-          "fields": "econ2",
-          "reference": {
-            "datapackage": "boost-armenia",
-            "resource": "econ2",
-            "fields": "econ2"
-          }
-        },
-        {
-          "fields": "econ3",
-          "reference": {
-            "datapackage": "boost-armenia",
-            "resource": "econ3",
-            "fields": "econ3"
-          }
-        },
-        {
-          "fields": "econ4",
-          "reference": {
-            "datapackage": "boost-armenia",
-            "resource": "econ4",
-            "fields": "econ4"
-          }
-        },
-        {
-          "fields": "func1",
-          "reference": {
-            "datapackage": "boost-armenia",
-            "resource": "func1",
-            "fields": "func1"
-          }
-        },
-        {
-          "fields": "func2",
-          "reference": {
-            "datapackage": "boost-armenia",
-            "resource": "func2",
-            "fields": "func2"
-          }
-        },
-        {
-          "fields": "func3",
-          "reference": {
-            "datapackage": "boost-armenia",
-            "resource": "func3",
-            "fields": "func3"
-          }
-        },
-        {
-          "fields": "exp_type",
-          "reference": {
-            "datapackage": "boost-armenia",
-            "resource": "exp_type",
-            "fields": "exp_type"
-          }
-        }
-      ]
+      }
     },
         {
       "name": "admin2",
@@ -365,6 +294,6 @@
       }
     }
   ],
-  "description": "The Armenia BOOST government expenditure database is constructed with data publicly available (in Armenian) at the Armenian e-government website, managed by the Ministry of Finance. The data included in the database ranges from 2006 to 2013 and comprises expenditures carried out by the central government. The national budget classification contains one level of administrative classification, four levels of economic classification, three levels of functional classification, and one level of program classification. The database also classifies expenditures by  expenditure type and identifies intra-budgetary transfers. Database users should be aware of the potential limitations of the datasets. We urge users to consult the users’ manuals to learn more about these limitations and take them into account when analyzing their countries’ budgets.",
+  "description": "",
   "repository": "https://github.com/os-data/boost-armenia.git"
 }
