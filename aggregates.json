@@ -1,17 +1,17 @@
 [
   {
-    "sql": "SELECT admin2, SUM(executed) as amount FROM ':memory:' WHERE transfer = 'Excluding transfers' AND year = 2006 GROUP BY admin2",
-    "file": "by-admin2-2006",
+    "sql": "SELECT func1, SUM(approved) as amount FROM ':memory:' WHERE transfer = 'Excluding transfers' AND Econ_func = 'Function' AND year = 2006 GROUP BY func1",
+    "file": "by-func1-2006",
     "format": "csv"
   },
   {
-    "sql": "SELECT admin2, econ1, SUM(executed) as amount FROM ':memory:' WHERE transfer = 'Excluding transfers' AND year = 2006 GROUP BY admin2, econ1",
-    "file": "by-admin2-then-econ1-2006",
+    "sql": "SELECT func1, func2, SUM(approved) as amount FROM ':memory:' WHERE transfer = 'Excluding transfers' AND Econ_func = 'Function' AND year = 2006 GROUP BY func1, func2",
+    "file": "by-func1-then-func2-2006",
     "format": "csv"
   },
   {
-    "sql": "SELECT admin2, econ1, econ2, SUM(executed) as amount FROM ':memory:' WHERE transfer = 'Excluding transfers' AND year = 2006 GROUP BY admin2, econ1, econ2",
-    "file": "by-admin2-then-econ1-then-econ2-2006",
+    "sql": "SELECT func1, func2, func3, SUM(approved) as amount FROM ':memory:' WHERE transfer = 'Excluding transfers' AND Econ_func = 'Function' AND year = 2006 GROUP BY func1, func2, func3",
+    "file": "by-func1-then-func2-then-func3-2006",
     "format": "csv"
   }
 ]
