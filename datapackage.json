@@ -7,6 +7,10 @@
   "direction": "expenditure",
   "status": "executed",
   "location": "AM",
+  "profiles": {
+     "openspending": "*",
+     "tabular": "*"
+  },
   "resources": [
     {
       "name": "boost-armenia",
@@ -101,10 +105,85 @@
             "type": "integer",
             "description": "Executed Budget (AMD)"
           }
-        ]
-      }
-    },
+        ],
+        "primaryKey": ""
+      },
+      "foreignKeys": [
         {
+          "fields": "admin2",
+          "reference": {
+            "datapackage": "boost-armenia",
+            "resource": "admin2",
+            "fields": "admin2"
+          }
+        },
+        {
+          "fields": "econ1",
+          "reference": {
+            "datapackage": "boost-armenia",
+            "resource": "econ1",
+            "fields": "econ1"
+          }
+        },
+        {
+          "fields": "econ2",
+          "reference": {
+            "datapackage": "boost-armenia",
+            "resource": "econ2",
+            "fields": "econ2"
+          }
+        },
+        {
+          "fields": "econ3",
+          "reference": {
+            "datapackage": "boost-armenia",
+            "resource": "econ3",
+            "fields": "econ3"
+          }
+        },
+        {
+          "fields": "econ4",
+          "reference": {
+            "datapackage": "boost-armenia",
+            "resource": "econ4",
+            "fields": "econ4"
+          }
+        },
+        {
+          "fields": "func1",
+          "reference": {
+            "datapackage": "boost-armenia",
+            "resource": "func1",
+            "fields": "func1"
+          }
+        },
+        {
+          "fields": "func2",
+          "reference": {
+            "datapackage": "boost-armenia",
+            "resource": "func2",
+            "fields": "func2"
+          }
+        },
+        {
+          "fields": "func3",
+          "reference": {
+            "datapackage": "boost-armenia",
+            "resource": "func3",
+            "fields": "func3"
+          }
+        },
+        {
+          "fields": "exp_type",
+          "reference": {
+            "datapackage": "boost-armenia",
+            "resource": "exp_type",
+            "fields": "exp_type"
+          }
+        }
+      ]
+    },
+    {
       "name": "admin2",
       "path": "data/admin2.csv",
       "format": "csv",
