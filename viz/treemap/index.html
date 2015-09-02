@@ -1,37 +1,93 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="https://rawgit.com/openspending/openspendingjs/master/src/css/treemap.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
     <title>Treemap Visualization Demo</title>
+    <link rel="stylesheet" href="https://rawgit.com/openspending/openspendingjs/master/src/css/treemap.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <link href="sticky-footer.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    <style>
+      html {
+      position: relative;
+      min-height: 100%;
+      }
+      body {
+      margin-bottom: 60px;
+      }
+      .footer {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      height: 60px;
+      background-color: #f5f5f5;
+      }
+      .container {
+      width: auto;
+      max-width: 680px;
+      padding: 0 15px;
+      }
+      .container .text-muted {
+      margin: 20px 0;
+      }
+    </style>
   </head>
   <body>
-    <div id="treemap"></div>
-    <!-- begin jquery.treemap.js dependencies -->
-    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
-    <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/accounting.js/0.4.1/accounting.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jit/2.0.2/jit.min.js"></script>
-    <script src="https://rawgit.com/okfn/csv.js/master/csv.js"></script>
-    <script src="https://rawgit.com/openspending/openspendingjs/master/src/utils/openspending.amounts.js"></script>
-    <script src="https://rawgit.com/openspending/openspendingjs/master/src/utils/openspending.colors.js"></script>
-    <script src="https://rawgit.com/openspending/openspendingjs/master/src/utils/openspending.csvloader.js"></script>
-    <script src="https://rawgit.com/openspending/openspendingjs/master/src/utils/openspending.aggregator.js"></script>
-    <script src="https://rawgit.com/openspending/openspendingjs/master/src/visualisations/jquery.treemap.js"></script>
-    <!-- end jquery.treemap.js dependencies -->
+    <div class="container">
+      <div class="page-header">
+        <h1>BOOST Armenia</h1>
+      </div>
+      <p class="lead">Generated from data found in the <a href="https://github.com/os-data/boost-armenia">os-data/boost-armenia</a> repository.  Use the <a href="http://data.okfn.org/tools/view">DataPackage Viewer</a> to <a href="http://data.okfn.org/tools/view?url=https%3A%2F%2Fraw.githubusercontent.com%2Fos-data%2Fboost-armenia%2Fmaster%2Fdatapackage.json">view this datapackage</a></p>
 
-    <script 'text/javascript'>
-      var data = {
-      currency: "AMD",
-      aggregated_csv_url: "../../aggregates/by-func1-then-func2-then-func3-2006.csv",
-      amount_col_name: "amount"
-      };
+      <div class="row">
+        <h2>Visualization</h2>
+        <div id="treemap"></div>
+        <h2>Source CSV</h2>
+        <iframe width="100%" height="500px" src="http://datapipes.okfnlabs.org/csv/html/?url=https%3A%2F%2Fraw.githubusercontent.com%2Fos-data%2Fboost-armenia%2Fmaster%2Faggregates%2Fby-func1-then-func2-then-func3-2006.csv"></iframe>
 
-      var options = {
-      data: data
-      };
-      
-      $('#treemap').treemap(options);
-    </script>
+        <!-- begin jquery.treemap.js dependencies -->
+        <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+        <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/accounting.js/0.4.1/accounting.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jit/2.0.2/jit.min.js"></script>
+        <script src="https://rawgit.com/okfn/csv.js/master/csv.js"></script>
+        <script src="https://rawgit.com/openspending/openspendingjs/master/src/utils/openspending.amounts.js"></script>
+        <script src="https://rawgit.com/openspending/openspendingjs/master/src/utils/openspending.colors.js"></script>
+        <script src="https://rawgit.com/openspending/openspendingjs/master/src/utils/openspending.csvloader.js"></script>
+        <script src="https://rawgit.com/openspending/openspendingjs/master/src/utils/openspending.aggregator.js"></script>
+        <script src="https://rawgit.com/openspending/openspendingjs/master/src/visualisations/jquery.treemap.js"></script>
+        <!-- end jquery.treemap.js dependencies -->
+        <script 'text/javascript'>
+          var data = {
+          currency: "AMD",
+          aggregated_csv_url: "../../aggregates/by-func1-then-func2-then-func3-2006.csv",
+          amount_col_name: "amount"
+          };
+
+          var options = {
+          data: data
+          };
+
+          $('#treemap').treemap(options);
+        </script>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="container">
+        <p class="text-muted">For demo purposes only.</p>
+      </div>
+    </footer>
   </body>
 </html>
