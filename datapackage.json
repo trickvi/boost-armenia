@@ -4,185 +4,15 @@
   "homepage": "http://wbi.worldbank.org/boost/country/armenia",
   "version": "0.1.0",
   "license": "PDDL-1.0",
+  "granularity": "aggregated",
   "direction": "expenditure",
   "status": "executed",
   "location": "AM",
   "profiles": {
-     "openspending": "*",
-     "tabular": "*"
+    "openspending": "*",
+    "tabular": "*"
   },
   "resources": [
-    {
-      "name": "boost-armenia",
-      "path": "data/boost-armenia.csv",
-      "format": "csv",
-      "mediatype": "text/csv",
-      "bytes": 9324912,
-      "schema": {
-        "fields": [
-          {
-            "name": "year",
-            "type": "integer",
-            "description": "Year"
-          },
-          {
-            "name": "AdminCentral",
-            "type": "string",
-            "description": "Administrative Classification (Level 1)"
-          },
-          {
-            "name": "admin2",
-            "type": "integer",
-            "description": "Administrative Classification (Level 2)"
-          },
-          {
-            "name": "econ1",
-            "type": "integer",
-            "description": "Economic Classification (Level 1)"
-          },
-          {
-            "name": "econ2",
-            "type": "integer",
-            "description": "Economic Classification (Level 2)"
-          },
-          {
-            "name": "econ3",
-            "type": "integer",
-            "description": "Economic Classification (Level 3)"
-          },
-          {
-            "name": "econ4",
-            "type": "integer",
-            "description": "Economic Classification (Level 4)"
-          },
-          {
-            "name": "func1",
-            "type": "integer",
-            "description": "Functional Classification (Level 1) -- Division"
-          },
-          {
-            "name": "func2",
-            "type": "integer",
-            "description": "Functional Classification (Level 2) -- Group"
-          },
-          {
-            "name": "func3",
-            "type": "integer",
-            "description": "Functional Classification (Level 3) -- Class"
-          },
-          {
-            "name": "program",
-            "type": "string",
-            "description": "Program Classification -- Program"
-          },
-          {
-            "name": "exp_type",
-            "type": "integer",
-            "description": "Expenditure Type Indicator"
-          },
-          {
-            "name": "Econ_func",
-            "type": "string",
-            "description": "Filter to account for subnational disaggregation"
-          },
-          {
-            "name": "transfer",
-            "type": "string",
-            "description": "Intrabudgetary Transfer Indicator"
-          },
-          {
-            "name": "approved",
-            "type": "integer",
-            "description": "Approved Budget (AMD)"
-          },
-          {
-            "name": "adjusted",
-            "type": "integer",
-            "description": "Adjusted Budget (AMD)"
-          },
-          {
-            "name": "executed",
-            "type": "integer",
-            "description": "Executed Budget (AMD)"
-          }
-        ],
-        "primaryKey": "",
-        "foreignKeys": [
-          {
-            "fields": "admin2",
-            "reference": {
-              "datapackage": "boost-armenia",
-              "resource": "admin2",
-              "fields": "admin2"
-            }
-          },
-          {
-            "fields": "econ1",
-            "reference": {
-              "datapackage": "boost-armenia",
-              "resource": "econ1",
-              "fields": "econ1"
-            }
-          },
-          {
-            "fields": "econ2",
-            "reference": {
-              "datapackage": "boost-armenia",
-              "resource": "econ2",
-              "fields": "econ2"
-            }
-          },
-          {
-            "fields": "econ3",
-            "reference": {
-              "datapackage": "boost-armenia",
-              "resource": "econ3",
-              "fields": "econ3"
-            }
-          },
-          {
-            "fields": "econ4",
-            "reference": {
-              "datapackage": "boost-armenia",
-              "resource": "econ4",
-              "fields": "econ4"
-            }
-          },
-          {
-            "fields": "func1",
-            "reference": {
-              "datapackage": "boost-armenia",
-              "resource": "func1",
-              "fields": "func1"
-            }
-          },
-          {
-            "fields": "func2",
-            "reference": {
-              "datapackage": "boost-armenia",
-              "resource": "func2",
-              "fields": "func2"
-            }
-          },
-          {
-            "fields": "func3",
-            "reference": {
-              "datapackage": "boost-armenia",
-              "resource": "func3",
-              "fields": "func3"
-            }
-          },
-          {
-            "fields": "exp_type",
-            "reference": {
-              "datapackage": "boost-armenia",
-              "resource": "exp_type",
-              "fields": "exp_type"
-            }
-          }
-        ]
-      }
-    },
     {
       "name": "admin2",
       "path": "data/admin2.csv",
@@ -371,8 +201,206 @@
           }
         ]
       }
+    },
+    {
+      "name": "boost-armenia",
+      "path": "data/boost-armenia.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "bytes": 9324912,
+      "schema": {
+        "fields": [
+          {
+            "name": "year",
+            "type": "integer",
+            "description": "Year"
+          },
+          {
+            "name": "AdminCentral",
+            "type": "string",
+            "description": "Administrative Classification (Level 1)"
+          },
+          {
+            "name": "admin2",
+            "type": "integer",
+            "description": "Administrative Classification (Level 2)"
+          },
+          {
+            "name": "econ1",
+            "type": "integer",
+            "description": "Economic Classification (Level 1)"
+          },
+          {
+            "name": "econ2",
+            "type": "integer",
+            "description": "Economic Classification (Level 2)"
+          },
+          {
+            "name": "econ3",
+            "type": "integer",
+            "description": "Economic Classification (Level 3)"
+          },
+          {
+            "name": "econ4",
+            "type": "integer",
+            "description": "Economic Classification (Level 4)"
+          },
+          {
+            "name": "func1",
+            "type": "integer",
+            "description": "Functional Classification (Level 1) -- Division"
+          },
+          {
+            "name": "func2",
+            "type": "integer",
+            "description": "Functional Classification (Level 2) -- Group"
+          },
+          {
+            "name": "func3",
+            "type": "integer",
+            "description": "Functional Classification (Level 3) -- Class"
+          },
+          {
+            "name": "program",
+            "type": "string",
+            "description": "Program Classification -- Program"
+          },
+          {
+            "name": "exp_type",
+            "type": "integer",
+            "description": "Expenditure Type Indicator"
+          },
+          {
+            "name": "Econ_func",
+            "type": "string",
+            "description": "Filter to account for subnational disaggregation"
+          },
+          {
+            "name": "transfer",
+            "type": "string",
+            "description": "Intrabudgetary Transfer Indicator"
+          },
+          {
+            "name": "approved",
+            "type": "integer",
+            "description": "Approved Budget (AMD)"
+          },
+          {
+            "name": "adjusted",
+            "type": "integer",
+            "description": "Adjusted Budget (AMD)"
+          },
+          {
+            "name": "executed",
+            "type": "integer",
+            "description": "Executed Budget (AMD)"
+          }
+        ],
+        "primaryKey": "",
+        "foreignKeys": [
+          {
+            "fields": "admin2",
+            "reference": {
+              "datapackage": "boost-armenia",
+              "resource": "admin2",
+              "fields": "admin2"
+            }
+          },
+          {
+            "fields": "econ1",
+            "reference": {
+              "datapackage": "boost-armenia",
+              "resource": "econ1",
+              "fields": "econ1"
+            }
+          },
+          {
+            "fields": "econ2",
+            "reference": {
+              "datapackage": "boost-armenia",
+              "resource": "econ2",
+              "fields": "econ2"
+            }
+          },
+          {
+            "fields": "econ3",
+            "reference": {
+              "datapackage": "boost-armenia",
+              "resource": "econ3",
+              "fields": "econ3"
+            }
+          },
+          {
+            "fields": "econ4",
+            "reference": {
+              "datapackage": "boost-armenia",
+              "resource": "econ4",
+              "fields": "econ4"
+            }
+          },
+          {
+            "fields": "func1",
+            "reference": {
+              "datapackage": "boost-armenia",
+              "resource": "func1",
+              "fields": "func1"
+            }
+          },
+          {
+            "fields": "func2",
+            "reference": {
+              "datapackage": "boost-armenia",
+              "resource": "func2",
+              "fields": "func2"
+            }
+          },
+          {
+            "fields": "func3",
+            "reference": {
+              "datapackage": "boost-armenia",
+              "resource": "func3",
+              "fields": "func3"
+            }
+          },
+          {
+            "fields": "exp_type",
+            "reference": {
+              "datapackage": "boost-armenia",
+              "resource": "exp_type",
+              "fields": "exp_type"
+            }
+          }
+        ]
+      }
     }
   ],
+  "mapping": {
+    "measures": {
+      "approved": {
+        "source": "approved",
+        "currency": "AMD",
+        "factor": 1
+      },
+      "adjusted": {
+        "source": "adjusted",
+        "currency": "AMD",
+        "factor": 1
+      },
+      "amount": {
+        "source": "executed",
+        "currency": "AMD",
+        "factor": 1
+      }
+    },
+    "date": {
+      "fields": {
+        "year": {
+          "primaryKey": "",
+          "source": "year"
+        }
+      }
+    }
+  },
   "description": "",
   "repository": "https://github.com/os-data/boost-armenia.git"
 }
