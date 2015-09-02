@@ -1,16 +1,16 @@
 [
   {
-    "sql": "SELECT func1, SUM(approved) as amount FROM ':memory:' WHERE transfer = 'Excluding transfers' AND Econ_func = 'Function' AND year = 2006 GROUP BY func1",
+    "sql": "SELECT func1, SUM(approved) as amount FROM 'table' WHERE transfer = 'Excluding transfers' AND Econ_func = 'Function' AND year = 2006 GROUP BY func1",
     "file": "by-func1-2006",
     "format": "csv"
   },
   {
-    "sql": "SELECT func1, func2, SUM(approved) as amount FROM ':memory:' WHERE transfer = 'Excluding transfers' AND Econ_func = 'Function' AND year = 2006 GROUP BY func1, func2",
+    "sql": "SELECT func1, func2, SUM(approved) as amount FROM 'table' WHERE transfer = 'Excluding transfers' AND Econ_func = 'Function' AND year = 2006 GROUP BY func1, func2",
     "file": "by-func1-then-func2-2006",
     "format": "csv"
   },
   {
-    "sql": "SELECT func1, func2, func3, SUM(approved) as amount FROM ':memory:' WHERE transfer = 'Excluding transfers' AND Econ_func = 'Function' AND year = 2006 GROUP BY func1, func2, func3",
+    "sql": "SELECT func1, func2, func3, SUM(approved) as amount FROM 'table' WHERE transfer = 'Excluding transfers' AND Econ_func = 'Function' AND year = 2006 GROUP BY func1, func2, func3",
     "file": "by-func1-then-func2-then-func3-2006",
     "format": "csv"
   }

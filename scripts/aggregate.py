@@ -12,10 +12,11 @@ def compute_aggregates(pkgdir,aggregates):
     csvpath = pkgdir + dpo.resources[0].path
     data = [ row for row in csv.DictReader(open(csvpath)) ]
     engine = create_engine('sqlite:///:memory:')
-    table = SchemaTable(engine, ':memory:', schema)
+    table = SchemaTable(engine, 'table', schema)
     table.create()
     table.load_iter(data)
     sqla_table = table.table
+    print(sqla_table.columns)
     aggregates_object = json.load(open(aggregates))
     if not os.path.exists(pkgdir + 'aggregates'):
         os.makedirs(pkgdir + 'aggregates')
