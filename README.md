@@ -19,4 +19,4 @@ their countries’ budgets.
 
 ## Visualization Demo
 
-http://os-data.github.io/boost-paraguay/viz/treemap/
+http://os-data.github.io/boost-armenia/viz/treemap/
