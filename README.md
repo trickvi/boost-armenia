@@ -16,3 +16,7 @@ Database users should be aware of the potential limitations of the
 datasets. We urge users to consult the users’ manuals to learn more
 about these limitations and take them into account when analyzing
 their countries’ budgets.
+
+## Visualization Demo
+
+http://os-data.github.io/boost-paraguay/viz/treemap/
