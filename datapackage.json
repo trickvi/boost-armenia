@@ -33,42 +33,42 @@
           },
           {
             "name": "admin2",
-            "type": "integer",
+            "type": "string",
             "description": "Administrative Classification (Level 2)"
           },
           {
             "name": "econ1",
-            "type": "integer",
+            "type": "string",
             "description": "Economic Classification (Level 1)"
           },
           {
             "name": "econ2",
-            "type": "integer",
+            "type": "string",
             "description": "Economic Classification (Level 2)"
           },
           {
             "name": "econ3",
-            "type": "integer",
+            "type": "string",
             "description": "Economic Classification (Level 3)"
           },
           {
             "name": "econ4",
-            "type": "integer",
+            "type": "string",
             "description": "Economic Classification (Level 4)"
           },
           {
             "name": "func1",
-            "type": "integer",
+            "type": "string",
             "description": "Functional Classification (Level 1) -- Division"
           },
           {
             "name": "func2",
-            "type": "integer",
+            "type": "string",
             "description": "Functional Classification (Level 2) -- Group"
           },
           {
             "name": "func3",
-            "type": "integer",
+            "type": "string",
             "description": "Functional Classification (Level 3) -- Class"
           },
           {
@@ -78,7 +78,7 @@
           },
           {
             "name": "exp_type",
-            "type": "integer",
+            "type": "string",
             "description": "Expenditure Type Indicator"
           },
           {
@@ -194,7 +194,7 @@
         "fields": [
           {
             "name": "admin2",
-            "type": "integer",
+            "type": "string",
             "description": ""
           },
           {
@@ -215,7 +215,7 @@
         "fields": [
           {
             "name": "econ1",
-            "type": "integer",
+            "type": "string",
             "description": ""
           },
           {
@@ -236,7 +236,7 @@
         "fields": [
           {
             "name": "econ2",
-            "type": "integer",
+            "type": "string",
             "description": ""
           },
           {
@@ -257,7 +257,7 @@
         "fields": [
           {
             "name": "econ3",
-            "type": "integer",
+            "type": "string",
             "description": ""
           },
           {
@@ -278,7 +278,7 @@
         "fields": [
           {
             "name": "econ4",
-            "type": "integer",
+            "type": "string",
             "description": ""
           },
           {
@@ -299,7 +299,7 @@
         "fields": [
           {
             "name": "exp_type",
-            "type": "integer",
+            "type": "string",
             "description": ""
           },
           {
@@ -320,7 +320,7 @@
         "fields": [
           {
             "name": "func1",
-            "type": "integer",
+            "type": "string",
             "description": ""
           },
           {
@@ -341,7 +341,7 @@
         "fields": [
           {
             "name": "func2",
-            "type": "integer",
+            "type": "string",
             "description": ""
           },
           {
@@ -362,7 +362,7 @@
         "fields": [
           {
             "name": "func3",
-            "type": "integer",
+            "type": "string",
             "description": ""
           },
           {
