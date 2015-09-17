@@ -1,93 +1,89 @@
 func1,func2,func3,amount
-01,0101,010101,10319338300
-01,0101,010102,9892258900
-01,0101,010103,6769262700
-01,0103,010301,372515900
-01,0103,010302,707366600
-01,0103,010303,478803900
-01,0104,010401,2498823500
-01,0105,010501,2203381300
-01,0106,010601,6280891700
-01,0107,010701,10315394900
-02,0201,020201,70510719600
-02,0203,020301,116600100
-02,0204,020401,605520000
-02,0205,020501,3776893100
-03,0301,030101,15541112600
-03,0301,030102,8844442100
-03,0302,030201,2761784300
-03,0303,030301,3208397600
-03,0303,030302,156296700
-03,0304,030401,2044263400
-03,0305,030501,4419968000
-04,0401,040101,2643356900
-04,0402,040201,6196258700
-04,0402,040202,1537054000
-04,0402,040204,10542684800
-04,0403,040302,0
-04,0403,040304,1816896000
-04,0403,040305,2660419300
-04,0404,040401,44092000
-04,0405,040501,39281688000
-04,0405,040504,97769600
-04,0405,040505,1646400000
-04,0406,040601,149500000
-04,0407,040703,305400000
-04,0407,040704,1944000000
-04,0408,040801,660600000
-04,0408,040802,96628700
-04,0408,040804,59115000
-04,0409,040901,-657501000
-05,0501,050101,31197000
-05,0503,050301,145802000
-05,0504,050401,696280100
-05,0506,050601,2325296500
-06,0601,060101,3549400000
-06,0603,060301,10238741500
-06,0606,060601,360497900
-07,0701,070101,1725000000
-07,0701,070103,995232800
-07,0702,070201,8609327600
-07,0702,070202,3072610300
-07,0702,070204,3058848900
-07,0703,070301,5412514500
-07,0703,070302,4661501100
-07,0703,070303,3645936800
-07,0704,070401,2187235000
-07,0705,070501,68901800
-07,0706,070601,5257177600
-07,0706,070602,730536900
-08,0801,080101,1175367100
-08,0802,080201,757268700
-08,0802,080202,1880613600
-08,0802,080203,18862700
-08,0802,080204,605960800
-08,0802,080205,2989747700
-08,0802,080206,482928000
-08,0802,080207,782198500
-08,0803,080301,3351529400
-08,0803,080302,621467100
-08,0803,080303,55769900
-08,0804,080401,316223400
-08,0804,080402,180222300
-08,0806,080601,379517400
-09,0902,090201,45155432000
-09,0903,090301,1014485600
-09,0903,090302,1756555900
-09,0904,090401,4864282400
-09,0904,090402,174656400
-09,0905,090501,999368500
-09,0905,090502,387333500
-09,0906,090601,22813909900
-09,0908,090801,396218300
-10,1001,100101,104630600
-10,1001,100102,712105200
-10,1002,100201,87042079400
-10,1003,100301,17500000
-10,1004,100401,28733329900
-10,1005,100501,2215940600
-10,1006,100601,4538791900
-10,1007,100701,3955128700
-10,1009,100901,2762020000
-10,1009,100902,3704285600
-11,1101,110101,3366001900
+Defense,Defense (not belonging to other classes),Defense (not belonging to other classes),3776893100
+Defense,External military assistance,External military assistance,116600100
+Defense,Research and development in defense sphere,Research and development in defense,605520000
+Economic relations,"Agriculture, forestry, fishery and hunting",Agriculture,6196258700
+Economic relations,"Agriculture, forestry, fishery and hunting",Forestry,1537054000
+Economic relations,"Agriculture, forestry, fishery and hunting",Irrigation,10542684800
+Economic relations,Communication,Communication,149500000
+Economic relations,Economic relations (not belonging to other classes),Economic relations (not belonging to other classes),-657501000
+Economic relations,Fuel and energy,Electricity,2660419300
+Economic relations,Fuel and energy,Mineral oils and natural gas,0
+Economic relations,Fuel and energy,Other fuel types,1816896000
+Economic relations,"General economic, trade and labor relations",General economic and trade relations,2643356900
+Economic relations,"Mineral resources, industry and construction","Export of mineral resources, except natural fuel",44092000
+Economic relations,Other spheres,Multi-purpose development programs,1944000000
+Economic relations,Other spheres,Tourism,305400000
+Economic relations,Research and development in the line of economic relations,"Research and development in the line of general economic, trade and labor issues",660600000
+Economic relations,Research and development in the line of economic relations,"Research and development in the line of metal mining industry, industry and construction",59115000
+Economic relations,Transport,Air transport,97769600
+Economic relations,Transport,Pipelines and other transport,1646400000
+Economic relations,Transport,Road transport,39281688000
+Education,Auxiliary services provided to education,Auxiliary services provided to education,22813909900
+Education,Education (not belonging to other classes),Education (not belonging to other classes),396218300
+Education,Education not classified by levels,Additional education,387333500
+Education,Education not classified by levels,Extracurricular education,999368500
+Education,General secondary education,General primary education,45155432000
+Education,Higher education,Higher vocational education,4864282400
+Education,Higher education,Post-university vocational education,174656400
+Education,Primary vocational and secondary vocational education,Elementary vocational education,1014485600
+Education,Primary vocational and secondary vocational education,Secondary vocational education,1756555900
+Environmental protection,Biodiversity and nature protection,Biodiversity and nature protection,696280100
+Environmental protection,Environmental pollution control,Air pollution control,145802000
+Environmental protection,Environmental protection (not belonging to other classes),Environmental protection (not belonging to other classes),2325296500
+Environmental protection,Waste removal,Waste removal,31197000
+General public services,General public services (not belonging to other classes),General public services (not belonging to other classes),6280891700
+General public services,General research services,General research work,2498823500
+General public services,General services,General programming and statistical services,707366600
+General public services,General services,General services in the line of staff /personnel/,372515900
+General public services,General services,Other general services,478803900
+General public services,"Legislative and executive bodies, public administration, financial and fiscal relations, foreign affairs",Financial and fiscal relations,9892258900
+General public services,"Legislative and executive bodies, public administration, financial and fiscal relations, foreign affairs",Foreign affairs,6769262700
+General public services,"Legislative and executive bodies, public administration, financial and fiscal relations, foreign affairs","Legislative and executive bodies, public administration",10319338300
+General public services,Operations in the line of public debt,Operation in the line of public debt,10315394900
+General public services,Research and development in the line of general public services,Research and development in the line of general public services,2203381300
+Healthcare,Healthcare (not belonging to other classes),Adjacent healthcare services and programs,5257177600
+Healthcare,Healthcare (not belonging to other classes),Healthcare (not belonging to other classes),730536900
+Healthcare,Hospital services,General hospital services,5412514500
+Healthcare,Hospital services,"Medical, mother and child centers' services",3645936800
+Healthcare,Hospital services,Specialized hospital services,4661501100
+Healthcare,"Medical goods, devices and equipment",Pharmaceutical goods,1725000000
+Healthcare,Outpatient services,General medical services,8609327600
+Healthcare,Outpatient services,Paramedical services,3058848900
+Healthcare,Outpatient services,Specialized medical services,3072610300
+Healthcare,Public healthcare services,Public healthcare services,2187235000
+House-building and public utilities,House-building,House-building,3549400000
+House-building and public utilities,House-building and utilities (not belonging to other classes),House-building and public utilities (not belonging to other classes),360497900
+House-building and public utilities,Water-supply,Water-supply,10238741500
+"Public order, security and judicial work",Judicial work and legal protection,Courts,3208397600
+"Public order, security and judicial work",Judicial work and legal protection,Legal protection,156296700
+"Public order, security and judicial work",Places of detention,Places of detention,4419968000
+"Public order, security and judicial work",Prosecutor's office,Prosecutor's office,2044263400
+"Public order, security and judicial work",Public order and security,National Security,8844442100
+"Public order, security and judicial work",Public order and security,Police,15541112600
+"Public order, security and judicial work",Rescue service,Rescue service,2761784300
+"Recreation, culture and religion",Cultural services,Art,2989747700
+"Recreation, culture and religion",Cultural services,Cinematography,482928000
+"Recreation, culture and religion",Cultural services,"Culture houses, clubs, centers",18862700
+"Recreation, culture and religion",Cultural services,Libraries,757268700
+"Recreation, culture and religion",Cultural services,Monuments and cultural values restoration and preservation,782198500
+"Recreation, culture and religion",Cultural services,Museums and galleries,1880613600
+"Recreation, culture and religion",Cultural services,Other cultural organizations,605960800
+"Recreation, culture and religion",Radio and TV programs broadcasting and publishing services,Information obtaining,55769900
+"Recreation, culture and religion",Radio and TV programs broadcasting and publishing services,"Publishing houses, editorial offices",621467100
+"Recreation, culture and religion",Radio and TV programs broadcasting and publishing services,TV and radio programs,3351529400
+"Recreation, culture and religion",Recreation and sport services,Recreation and sport services,1175367100
+"Recreation, culture and religion","Recreation, culture and religion (not belonging to other classes)","Recreation, culture and religion (not belonging to other classes)",379517400
+"Recreation, culture and religion",Religious and other public services,"Political parties, non-governmental organizations, trade unions",180222300
+"Recreation, culture and religion",Religious and other public services,Youth programs,316223400
+Reserve funds not covered by main divisions,Reserve fund of the Government and communities of RA,Reserve fund of the Government of RA,3366001900
+Social security,Family members and children,Family members and children,28733329900
+Social security,Habitation securing,Habitation securing,4538791900
+Social security,Ill health and disability,Disability,712105200
+Social security,Ill health and disability,Ill health,104630600
+Social security,Old age,Old age,87042079400
+Social security,Persons who lost relatives,Persons who lost relatives,17500000
+Social security,Social security (not belonging to other classes),Auxiliary services provided to social protection (not belonging to other classes),3704285600
+Social security,Social security (not belonging to other classes),Social security (not belonging to other classes),2762020000
+Social security,Special social privileges (not belonging to other classes),Special social privileges (not belonging to other classes),3955128700
+Social security,Unemployment,Unemployment,2215940600

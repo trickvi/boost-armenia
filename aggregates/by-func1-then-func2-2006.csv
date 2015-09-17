@@ -1,58 +1,56 @@
 func1,func2,amount
-01,0101,26980859900
-01,0103,1558686400
-01,0104,2498823500
-01,0105,2203381300
-01,0106,6280891700
-01,0107,10315394900
-02,0201,70510719600
-02,0203,116600100
-02,0204,605520000
-02,0205,3776893100
-03,0301,24385554700
-03,0302,2761784300
-03,0303,3364694300
-03,0304,2044263400
-03,0305,4419968000
-04,0401,2643356900
-04,0402,18275997500
-04,0403,4477315300
-04,0404,44092000
-04,0405,41025857600
-04,0406,149500000
-04,0407,2249400000
-04,0408,816343700
-04,0409,-657501000
-05,0501,31197000
-05,0503,145802000
-05,0504,696280100
-05,0506,2325296500
-06,0601,3549400000
-06,0603,10238741500
-06,0606,360497900
-07,0701,2720232800
-07,0702,14740786800
-07,0703,13719952400
-07,0704,2187235000
-07,0705,68901800
-07,0706,5987714500
-08,0801,1175367100
-08,0802,7517580000
-08,0803,4028766400
-08,0804,496445700
-08,0806,379517400
-09,0902,45155432000
-09,0903,2771041500
-09,0904,5038938800
-09,0905,1386702000
-09,0906,22813909900
-09,0908,396218300
-10,1001,816735800
-10,1002,87042079400
-10,1003,17500000
-10,1004,28733329900
-10,1005,2215940600
-10,1006,4538791900
-10,1007,3955128700
-10,1009,6466305600
-11,1101,3366001900
+Defense,Defense (not belonging to other classes),3776893100
+Defense,External military assistance,116600100
+Defense,Research and development in defense sphere,605520000
+Economic relations,"Agriculture, forestry, fishery and hunting",18275997500
+Economic relations,Communication,149500000
+Economic relations,Economic relations (not belonging to other classes),-657501000
+Economic relations,Fuel and energy,4477315300
+Economic relations,"General economic, trade and labor relations",2643356900
+Economic relations,"Mineral resources, industry and construction",44092000
+Economic relations,Other spheres,2249400000
+Economic relations,Research and development in the line of economic relations,719715000
+Economic relations,Transport,41025857600
+Education,Auxiliary services provided to education,22813909900
+Education,Education (not belonging to other classes),396218300
+Education,Education not classified by levels,1386702000
+Education,General secondary education,45155432000
+Education,Higher education,5038938800
+Education,Primary vocational and secondary vocational education,2771041500
+Environmental protection,Biodiversity and nature protection,696280100
+Environmental protection,Environmental pollution control,145802000
+Environmental protection,Environmental protection (not belonging to other classes),2325296500
+Environmental protection,Waste removal,31197000
+General public services,General public services (not belonging to other classes),6280891700
+General public services,General research services,2498823500
+General public services,General services,1558686400
+General public services,"Legislative and executive bodies, public administration, financial and fiscal relations, foreign affairs",26980859900
+General public services,Operations in the line of public debt,10315394900
+General public services,Research and development in the line of general public services,2203381300
+Healthcare,Healthcare (not belonging to other classes),5987714500
+Healthcare,Hospital services,13719952400
+Healthcare,"Medical goods, devices and equipment",1725000000
+Healthcare,Outpatient services,14740786800
+Healthcare,Public healthcare services,2187235000
+House-building and public utilities,House-building,3549400000
+House-building and public utilities,House-building and utilities (not belonging to other classes),360497900
+House-building and public utilities,Water-supply,10238741500
+"Public order, security and judicial work",Judicial work and legal protection,3364694300
+"Public order, security and judicial work",Places of detention,4419968000
+"Public order, security and judicial work",Prosecutor's office,2044263400
+"Public order, security and judicial work",Public order and security,24385554700
+"Public order, security and judicial work",Rescue service,2761784300
+"Recreation, culture and religion",Cultural services,7517580000
+"Recreation, culture and religion",Radio and TV programs broadcasting and publishing services,4028766400
+"Recreation, culture and religion",Recreation and sport services,1175367100
+"Recreation, culture and religion","Recreation, culture and religion (not belonging to other classes)",379517400
+"Recreation, culture and religion",Religious and other public services,496445700
+Reserve funds not covered by main divisions,Reserve fund of the Government and communities of RA,3366001900
+Social security,Family members and children,28733329900
+Social security,Habitation securing,4538791900
+Social security,Ill health and disability,816735800
+Social security,Old age,87042079400
+Social security,Persons who lost relatives,17500000
+Social security,Social security (not belonging to other classes),6466305600
+Social security,Special social privileges (not belonging to other classes),3955128700
+Social security,Unemployment,2215940600

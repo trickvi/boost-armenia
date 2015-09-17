@@ -1,16 +1,25 @@
 [
   {
-    "sql": "SELECT func1, SUM(approved) as amount FROM 'table' WHERE transfer = 'Excluding transfers' AND Econ_func = 'Function' AND year = 2006 GROUP BY func1",
-    "file": "by-func1-2006",
+    "columns": ["econ1","econ2","econ3"],
+    "year": "2006",
+    "aggregate": "approved",
+    "where": "transfer = 'Excluding transfers' AND Econ_func = 'Economic'",
+    "file": "by-econ1-then-econ2-then-econ3-2006",
     "format": "csv"
   },
   {
-    "sql": "SELECT func1, func2, SUM(approved) as amount FROM 'table' WHERE transfer = 'Excluding transfers' AND Econ_func = 'Function' AND year = 2006 GROUP BY func1, func2",
+    "columns": ["func1","func2"],
+    "year": "2006",
+    "aggregate": "approved",
+    "where": "transfer = 'Excluding transfers' AND Econ_func = 'Function'",
     "file": "by-func1-then-func2-2006",
     "format": "csv"
   },
   {
-    "sql": "SELECT func1, func2, func3, SUM(approved) as amount FROM 'table' WHERE transfer = 'Excluding transfers' AND Econ_func = 'Function' AND year = 2006 GROUP BY func1, func2, func3",
+    "columns": ["func1","func2","func3"],
+    "year": "2006",
+    "aggregate": "approved",
+    "where": "transfer = 'Excluding transfers' AND Econ_func = 'Function'",
     "file": "by-func1-then-func2-then-func3-2006",
     "format": "csv"
   }

@@ -47,18 +47,22 @@
       <div class="page-header">
         <h1>BOOST Armenia</h1>
       </div>
+
       <p class="lead">Generated from data found in the <a href="https://github.com/os-data/boost-armenia">os-data/boost-armenia</a> repository.  Use the <a href="http://data.okfn.org/tools/view">DataPackage Viewer</a> to <a href="http://data.okfn.org/tools/view?url=https%3A%2F%2Fraw.githubusercontent.com%2Fos-data%2Fboost-armenia%2Fmaster%2Fdatapackage.json">view this datapackage</a></p>
 
       <div class="row">
         <div class="col-md-12">
           <h2>Visualization</h2>
+          <a id="reset" href="#">Reset</a>
+
+          <select class="target">
+          </select>
+
           <div id="treemap"></div>
           <h2>Aggregate Code</h2>
           Aggregates are generated using the queries defined <a href="https://github.com/os-data/boost-armenia/blob/master/aggregates.json">here</a>.
           <h2>Source CSV</h2>
           <iframe width="100%" height="500px" src="http://datapipes.okfnlabs.org/csv/html/?url=https%3A%2F%2Fraw.githubusercontent.com%2Fos-data%2Fboost-armenia%2Fmaster%2Faggregates%2Fby-func1-then-func2-then-func3-2006.csv"></iframe>
-
-
 
           <!-- begin jquery.treemap.js dependencies -->
           <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
@@ -73,10 +77,13 @@
           <script src="https://rawgit.com/openspending/openspendingjs/master/src/utils/openspending.aggregator.js"></script>
           <script src="https://rawgit.com/openspending/openspendingjs/master/src/visualisations/jquery.treemap.js"></script>
           <!-- end jquery.treemap.js dependencies -->
+
           <script 'text/javascript'>
+            t = $( ".target" );
+            var load_treemap = function() {
             var data = {
             currency: "AMD",
-            aggregated_csv_url: "../../aggregates/by-func1-then-func2-then-func3-2006.csv",
+            aggregated_csv_url: t.val(),
             amount_col_name: "amount"
             };
 
@@ -85,6 +92,22 @@
             };
 
             $('#treemap').treemap(options);
+            };
+
+            $('#reset').on('click', load_treemap);
+
+            jQuery.getJSON("../../aggregates.json", function(data){
+            $.each(data, function(a) {
+            var path = "../../aggregates/" + data[a].file + "." + data[a].format;
+            $(".target").append(new Option(data[a].file, path));
+            });
+
+            load_treemap();
+            });
+
+            t.change(function(s) {
+            load_treemap();
+            });
           </script>
         </div>
       </div>
