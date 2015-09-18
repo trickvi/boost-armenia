@@ -395,7 +395,7 @@
     "date": {
       "fields": {
         "year": {
-          "primaryKey": "",
+          "primaryKey": true,
           "source": "year"
         }
       }
