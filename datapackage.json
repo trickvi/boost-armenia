@@ -7,7 +7,7 @@
   "granularity": "aggregated",
   "direction": "expenditure",
   "status": "executed",
-  "location": "AM",
+  "countryCode": "AM",
   "profiles": {
     "openspending": "*",
     "tabular": "*"
